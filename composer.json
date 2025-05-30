@@ -1,0 +1,27 @@
+{
+    "name": "garyf/mvc",
+    "description": "A lightweight PHP MVC framework with routing, DI container, and controller/view logic — built for learning and prototyping.",
+    "authors": [
+        {
+            "name": "Gary Fung",
+            "email": "66684175+gakary@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require": {
+        "illuminate/collections": "^9.52"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.23"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

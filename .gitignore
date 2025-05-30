@@ -1,0 +1,18 @@
+# Composer
+/vendor/
+composer.phar
+
+# PHPUnit / Pest
+.phpunit.result.cache
+.pest.cache
+
+# Development-only playground
+/public/playground.php
+
+# IDEs (VS Code & PhpStorm)
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
